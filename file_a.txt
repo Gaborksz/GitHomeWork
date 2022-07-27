@@ -1,4 +1,9 @@
 
+12. Módosítsuk file_a tartalmát. Írjuk bele, hogy mit kéne beleírni a .gitignore-ba, hogy az összes .txt típusú fájlt hagyja figyelmen kívül a Git.
+
+	*.txt
+
+
 What is Git?
 
 	Git is a free and open source distributed Version Control System 
