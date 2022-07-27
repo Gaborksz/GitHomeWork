@@ -1,0 +1,47 @@
+
+What is Git?
+
+	Git is a free and open source distributed Version Control System 
+	designed to handle everything from small to very large projects 
+	with speed and efficiency.
+
+
+What is a Version Control System?
+	Version control, also known as source control, is the practice of tracking 
+	and managing changes to software code. Version control systems are software tools 
+	that help software teams manage changes to source code over time. 
+	As development environments have accelerated, version control systems 
+	help software teams work faster and smarter. They are especially useful 
+	for DevOps teams since they help them to reduce development time and increase successful deployments.
+
+	Version control software keeps track of every modification to the code in a special kind of database. 
+	If a mistake is made, developers can turn back the clock and compare earlier versions of the code 
+	to help fix the mistake while minimizing disruption to all team members.
+
+	Version control protects source code from both catastrophe and the casual degradation of human error and unintended consequences.
+	Version control helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting
+
+
+
+Advantages Distributed Version Control:
+
+	- Coordinates work between multiple developers
+	- Who made what changes and when
+	- Revert back at any time
+	- Local & remote repos
+
+
+Other systems (CVS, Subversion, Perforce, Bazaar, and so on) think of the 
+information they store as a set of files and the changes made to each file 
+over time (this is commonly described as delta-based version control).
+
+Git doesn’t think of or store its data this way. Instead, Git thinks of its 
+data more like a series of snapshots of a miniature filesystem. 
+With Git, every time you commit, or save the state of your project, 
+Git basically takes a picture of what all your files look like at that 
+moment and stores a reference to that snapshot. To be efficient, if files 
+have not changed, Git doesn’t store the file again, just a link to the previous 
+identical file it has already stored. 
+Git thinks about its data more like a stream of snapshots.
+
+
